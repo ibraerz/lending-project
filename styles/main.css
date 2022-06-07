@@ -1,0 +1,167 @@
+/* ОСНОВНЫЕ НАСТРЙКИ ХЕРО---------------------------------------------  */
+.hero {
+    background-image: url('../images/image1.jpg');
+    background-size: cover;
+    height: 707px;
+    padding-top: 150px;
+    position: relative;
+}
+.hero-container {
+    position: relative;
+    z-index: 1;
+}
+.hero-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+/* ОСНОВНЫЕ НАСТРОЙКИ ХЕРО---------------------------------------------  */
+
+
+
+
+/* ТЕКСТ---------------------------------------------  */
+.rostov {
+    color: #E3B873;
+}
+.title {
+    margin: 0px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: white;
+}
+.title2 {
+    color: white;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 36px;
+    font-size: 22px;
+}
+/* ТЕКСТ--------------------------------------------- */
+
+
+
+
+
+/* ДВЕ КНОПКИ ПОД ТЕКСТОМ---------------------------------------------  */
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+.main-button__1 {
+    background: #E3B873;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    padding: 20px 41px;
+    color: white;
+    border: none;
+}
+.main-button__2 {
+    background: none;
+    border-radius: 2px;
+
+    padding: 19px 41px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+    color: black;
+}
+button:active {
+    background-color: #d5d5d5;
+    color: #000000;
+}
+/* ДВЕ КНОПКИ ПОД ТЕКСТОМ---------------------------------------------  */
+
+
+
+
+
+/* ВТОРАЯ СЕКЦИЯ //////////////////////////////////////////////////////////////////////////////// */
+
+.section__2 {
+    width: inherit;;
+    height: 1070px;
+    background-color: #131313;
+}
+
+.black-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 1000px;
+    background: none;
+    padding-top: 100px;
+    flex-direction: row;
+
+}
+
+.p_text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.section2_title2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 34px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+/* .izo_links {
+    margin-left: 350px;
+} */
+
+.section2__link {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 19px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    
+    text-decoration: none;
+    border-bottom: 1px solid #131313;
+    
+}
+.section2__link:hover {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+}
+
+.izo_links_izo {
+    padding-top: 52px;
+}
+
+.izo_links_links {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.text_block {
+    width: 440px;
+}

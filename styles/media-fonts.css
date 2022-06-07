@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Yeseva One;
+    src: url(../fonts/Yeseva_One/YesevaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    src: url(../fonts/Nunito_Sans/NunitoSans-Regular.ttf);
+}
+
+@media screen and (max-width: 768px) {
+  
+    .title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 132.83%;
+    /* or 31px */
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+    .title2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135.84%;
+    /* or 19px */
+
+
+    color: #FFFFFF;
+    }
+
+    .header-navigation, .button_call {
+      display: none;
+    }
+   
+    .header-link__tel {
+      color: #ffffff;
+      margin-right: 20px;
+      text-decoration: none;
+      font-size: 11px;
+  }
+  
+  .logo {
+      margin-left: 30px;
+      font-size: 11px;
+  }
+  
+  .hero-container {
+      margin-left: 30px;
+  }
+  
+.hero {
+    height: 476px;
+}
+
+.text_block {
+    width: auto;
+}
+  .main-button__1 {
+      width: 93%;
+      margin: 10px 0;
+  }
+  
+  .main-button__2 {
+      margin-top: 15px;
+      margin-left: 0;
+      width: 93%;
+  }
+  
+  .buttons {
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-between; */
+  }
+  .izo_links {
+    background-color: #E3B873;
+    background-image: url('../images/image 2.png');
+    width: 340;
+    height: 241px;
+    position: absolute;
+    top: 300px;
+    left: 20%;
+    right: 20%;
+}
+
+.izo_links_links {
+    display: none;
+
+}
+
+.section2_title2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 34px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    text-align: center;
+    
+}
+  
+.p_text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 158.48%;
+
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.text_block {
+    text-align: center;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+}
+  
+
+  .black-container {
+      padding-top: 37px;
+      display: flex;
+      flex-direction: column;
+      
+      
+  }
+
+  .section__2 {
+      position: relative;
+  }
+
+
+  .section2_img {
+      display: none;
+
+  }
+
+}
