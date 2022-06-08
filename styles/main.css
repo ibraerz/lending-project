@@ -101,7 +101,6 @@ button:active {
 
 .black-container {
     display: flex;
-    justify-content: space-between;
     width: 100%;
     height: 1000px;
     background: none;
@@ -130,11 +129,68 @@ button:active {
     color: #E3B873;
 }
 
-/* .izo_links {
-    margin-left: 350px;
-} */
 
-.section2__link {
+
+.text_block {
+    width: 440px;
+}
+
+
+.example-1 {
+    display: grid;
+    grid-template-columns: 250px 200px;
+    grid-template-rows: 140px 100px;
+    width: 100%;
+    /* outline: 2px dashed #ccc; */
+    padding: 0;
+ }
+ .example-1-item {
+
+     width: 40%;
+     height: 100px;
+     /* background: #1a76ff; */
+ 
+    
+ }
+
+ .div__h2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 138.6%;
+    /* or 19px */
+    
+    text-transform: uppercase;
+    
+    color: #E3B873;
+    
+ }
+
+ .div__p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+ }
+
+
+.izo__links {
+    margin-left: 120px;
+}
+
+.div__links {
+    margin-bottom: 20px;
+}
+
+ .section2__links { 
+    margin-right: 60px;
+}
+
+.section2__links {
     font-family: 'Yeseva One';
     font-weight: 400;
     font-style: normal;
@@ -147,21 +203,7 @@ button:active {
     border-bottom: 1px solid #131313;
     
 }
-.section2__link:hover {
+.section2__links:hover {
     color: #E3B873;
     border-bottom: 1px solid #E3B873;
-}
-
-.izo_links_izo {
-    padding-top: 52px;
-}
-
-.izo_links_links {
-    display: flex;
-
-    justify-content: space-between;
-}
-
-.text_block {
-    width: 440px;
 }
