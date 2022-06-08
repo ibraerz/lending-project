@@ -8,75 +8,71 @@
     src: url(../fonts/Nunito_Sans/NunitoSans-Regular.ttf);
 }
 
-@media screen and (max-width: 768px) {
-  
-    .title {
+@media screen and (max-width: 768px) 
+
+{
+.title {
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
     line-height: 132.83%;
-    /* or 31px */
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
 
-    .title2 {
+.title2 {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 135.84%;
-    /* or 19px */
-
-
     color: #FFFFFF;
     }
 
-    .header-navigation, .button_call {
-      display: none;
+.header-navigation, .button_call {
+    display: none;
     }
    
-    .header-link__tel {
-      color: #ffffff;
-      margin-right: 20px;
-      text-decoration: none;
-      font-size: 11px;
+.header-link__tel {
+    color: #ffffff;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 11px;
   }
   
-  .logo {
-      margin-left: 30px;
-      font-size: 11px;
+.logo {
+    margin-left: 30px;
+    font-size: 11px;
   }
   
-  .hero-container {
-      margin-left: 30px;
+.hero-container {
+    margin-left: 30px;
   }
   
 .hero {
     height: 476px;
 }
 
-  .main-button__1 {
-      width: 93%;
-      margin: 10px 0;
+.main-button__1 {
+    width: 93%;
+    margin: 10px 0;
   }
   
-  .main-button__2 {
-      margin-top: 15px;
-      margin-left: 0;
-      width: 93%;
+.main-button__2 {
+    margin-top: 15px;
+    margin-left: 0;
+    width: 93%;
   }
   
-  .buttons {
-      display: flex;
-      flex-direction: column;
-      /* justify-content: space-between; */
+.buttons {
+    display: flex;
+    flex-direction: column;
+      
   }
-  .izo_links {
+.izo_links {
     background-color: #E3B873;
-
     width: 340;
     height: 241px;
     position: absolute;
@@ -140,43 +136,36 @@
     font-size: 11px;
     line-height: 158.48%;
     margin: 0 30px;
-
     text-align: center;
-
     color: #FFFFFF;
 }
 
 .text_block {
     text-align: center;
-    /* background-color: aquamarine; */
-
     width: auto;
     display: flex;
     flex-direction: column;
 }
   
 
-  .black-container {
-      padding-top: 37px;
+.black-container {
+    padding-top: 37px;
 
       
       
   }
 
-  .section__2 {
-      position: relative;
+.section__2 {
+    position: relative;
   }
 
 
-  .section2_img {
-      display: none;
+.section2_img {
+    display: none;
 
   }
 
-
-
-
-  .example-1 {
+.example-1 {
     display: flex; 
     flex-wrap: wrap;
     width: 100%;
@@ -198,10 +187,8 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 138.6%;
-    /* or 19px */
-    
+
     text-transform: uppercase;
-    
     color: #E3B873;
     
  }
@@ -212,7 +199,6 @@
     font-weight: 400;
     font-size: 11px;
     line-height: 18px;
-    
     color: #FFFFFF;
  }
 
