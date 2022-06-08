@@ -128,12 +128,9 @@ button:active {
     color: #E3B873;
 }
 
-
-
 .text_block {
     width: 440px;
 }
-
 
 .example-1 {
     display: grid;
@@ -175,20 +172,17 @@ button:active {
     margin-top: 81px;
 }
 
-.vector__img {
-    filter: brightness(10);
+.vector__img:hover {
+    cursor: pointer;;
 }
 
+/* Второй блок второй секции --------------------- */
 .izo__links {
     margin-left: 120px;
 }
 
 .div__links {
     margin-bottom: 20px;
-}
-
- .section2__links { 
-    margin-right: 60px;
 }
 
 .section2__links {
@@ -200,13 +194,24 @@ button:active {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
     text-decoration: none;
-    border-bottom: 1px solid #131313;
+    margin-right: 60px;
     
 }
 .section2__links:hover {
     color: #E3B873;
     border-bottom: 1px solid #E3B873;
+    padding-bottom: 6px;
+}
+
+.izo__fon {
+    display: none;
 }
 
 
 /* ТРЕТЬЯ СЕКЦИЯ //////////////////////////////////////////////////////////////////////////////// */
+
+.section__3 {
+    width: inherit;;
+    height: 1070px;
+    background-color: #d55f5f;
+}
