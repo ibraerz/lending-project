@@ -216,7 +216,7 @@ button:active {
     justify-content: center;
     width: inherit;
     height: 1070px;
-    background-color: #d55f5f;
+
 }
 
 .section3__block {
@@ -225,8 +225,10 @@ button:active {
     align-items: center;
     width: 817px;
     height: 924px;
-    outline: 3px solid rgb(255, 255, 255);
-    margin-top: -300px
+
+    position: absolute;
+    top: 1800px;
+    left: 311px;
 
 }
 
@@ -234,6 +236,39 @@ button:active {
     display: flex;
     justify-content: space-around;
     width: 100px;
+
+}
+
+.section3__img__rem__div {
+    margin-top: 31px;
+    background-color: #000000;
+    width: 817px;
+    height: 434px;
+    position: relative;
+
+
+}
+
+.img__rem {
+    opacity: 0.3;
+}
+
+.play__rem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 85px;
+    background-color: #E3B873;
+    border-radius: 50%;
+    position: absolute;
+    top: 174px;
+    left: 365px;
+}
+
+.play__rem:hover {
+background-color: #000000;
+cursor: pointer;
 }
 
 .title__section3 {
@@ -249,4 +284,19 @@ button:active {
     
     color: #FFFFFF;
     
+}
+
+.poloska__div {
+    margin-top: 20px;
+}
+
+.text__div {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    margin: 20px 68px;
+    color: #363636;
 }

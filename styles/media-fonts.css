@@ -157,6 +157,8 @@
 
 .section__2 {
     position: relative;
+    height: 727px;
+
   }
 
 
@@ -210,6 +212,57 @@
     display: none;
 }
 
+.section3__block {
+ width: 100%;
+ position: static;
+ background-color: #131313;
+ 
 
+}
+
+
+
+.section3__img__rem__div {
+display: flex;
+width: 340px;
+margin: 0 auto;
+height: 207px;
+margin: 0 17px;
+margin-top: 31px;
+}
+
+.img__rem {
+    width: inherit
+}
+
+
+.text__div {
+    margin: 21px 17px;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.inputs__div {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 100%;
+    
+}
+.inputs {
+    height: 31px;
+    background-color:#131313;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: #ad5555;
+    width: 90%;
+    margin: 0 17px;
+
+}
+
+.main-button__1 {
+    width: 93%;
+    margin: 17px;
+}
 
 }
