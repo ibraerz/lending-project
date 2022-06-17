@@ -54,35 +54,35 @@
 
 /* ДВЕ КНОПКИ ПОД ТЕКСТОМ---------------------------------------------  */
 .buttons {
-    display: flex;
-    flex-direction: row;
+    display: flex;                     
+    flex-direction: row;                
 }
 .main-button__1 {
-    background: #E3B873;
-    border-radius: 2px;
+    background: #E3B873;               
+    border-radius: 2px;                  
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
-    padding: 20px 41px;
-    color: white;
-    border: none;
+    padding: 20px 41px;               
+    color: white;                  
+    border: none;                   
 }
 .main-button__2 {
-    background: none;
-    border-radius: 2px;
-    padding: 19px 41px;
-    color: white;
+    background: none;               
+    border-radius: 2px;             
+    padding: 19px 41px;             
+    color: white;                 
     border: 1px solid white;
-    margin-left: 20px;
+    margin-left: 20px;             
 }
 
 button:hover {
-    cursor: pointer;
-    background-color: #ffffff;
-    border: none;
-    color: black;
+    cursor: pointer;               
+    background-color: #ffffff;   
+    border: none;                 
+    color: black;              
 }
-button:active {
+button:active {                  
     background-color: #d5d5d5;
-    color: #000000;
+    color: #000000;           
 }
 /* ДВЕ КНОПКИ ПОД ТЕКСТОМ---------------------------------------------  */
 
@@ -90,7 +90,8 @@ button:active {
 
 
 
-/* ВТОРАЯ СЕКЦИЯ //////////////////////////////////////////////////////////////////////////////// */
+/* ВТОРАЯ СЕКЦИЯ ////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////// */
 
 .section__2 {
     width: inherit;;
@@ -208,14 +209,15 @@ button:active {
 }
 
 
-/* ТРЕТЬЯ СЕКЦИЯ //////////////////////////////////////////////////////////////////////////////// */
+/* ТРЕТЬЯ СЕКЦИЯ ////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////// */
 
 .section__3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: inherit;
-    height: 1070px;
+    height: 700px;
 
 }
 
@@ -227,8 +229,8 @@ button:active {
     height: 924px;
 
     position: absolute;
-    top: 1800px;
-    left: 311px;
+    top: 1660px;
+    margin: 0 auto;
 
 }
 
@@ -267,8 +269,8 @@ button:active {
 }
 
 .play__rem:hover {
-background-color: #000000;
-cursor: pointer;
+    background-color: #000000;
+    cursor: pointer;
 }
 
 .title__section3 {
@@ -299,4 +301,554 @@ cursor: pointer;
     text-align: center;
     margin: 20px 68px;
     color: #363636;
+}
+
+.inputs__div {
+    width: inherit;
+    display: flex;
+
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  .custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 2px solid #E3B873;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+
+  .custom-checkbox:checked+label::before {
+    border-color: #E3B873;
+    background-color: #E3B873;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    
+  }
+
+
+
+.flex__div {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    height: 90px;
+    /* border: 2px solid rebeccapurple; */
+}
+.button__div {
+    width: 200px;
+    height: 51px;
+    align-self: center;
+}
+
+.main-button__rem {
+    background: #E3B873;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    padding: 20px 41px;
+    color: white;
+    border: none;
+    width: inherit;
+    height: inherit;
+
+}
+
+.main-button__rem:hover {
+    background: #dadada;
+}
+
+.main-button__rem:active {
+    background: #ffffff;
+    border: 1px solid rgb(228, 228, 228);
+}
+
+.inputs {
+    height: 31px;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 231px;
+    margin-top: 0px;
+    color: #E3B873;
+   
+    
+}
+
+.p__inputs {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 13px;
+
+}
+
+.two__input {
+    margin-left: 58px;
+}
+
+.checkbox__div {
+    display: none;
+}
+
+.checkbox__div2 {
+    margin-top: 39px;
+}
+
+
+
+
+/* ЧЕТВЕРТАЯ СЕКЦИЯ /////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////// */
+
+.section4__block {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 1070px;
+    width: auto;
+
+
+}
+
+.vector__s4 {
+    align-items: center;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.vector__img__s4 {
+    margin: 0 13px;
+}
+
+
+.title__s4 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #181818;
+}
+
+.flex__s4 {
+    display: flex;
+}
+
+.flex__s4__self {
+    margin: 0 30px;
+}
+
+.flex__s4__self {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 554px;
+
+}
+
+.div__s4__cube {
+    width: 330px;
+    height: 286px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 1px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    
+
+}
+
+.h3__s4 {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    font-size: 18px;
+
+    color: #363636;
+}
+
+.spisok__s4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+    font-family: 'Nunito Sans';
+
+
+}
+
+.h3__spisok__div {
+    margin-left: 34px;
+}
+
+.div__s4__rur {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    width: 228px;
+    height: 54px;
+    z-index: 2;
+}
+
+.from__900 {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* ПЯТАЯ СЕКЦИЯ /////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.s5__block__line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 509px;
+    width: 100%;
+}
+
+.s5__left__block {
+    background-image: url('../images/gorod.png');
+    height: inherit;
+    width: 645px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.s5__right__block {
+    background-color: #131313;
+    width: 506px;
+    height: inherit;
+}
+
+.circle {
+    min-width: 41px;
+    min-height: 41px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: rgb(227, 184, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    outline: 10px solid #f2f1f1;
+}
+
+.title__s5 {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 19px;
+    font-size: 14px;
+    color: #363636;
+    margin-left: 18px;
+}
+
+.flex__circle__h5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 417px;
+    /* outline: 1px solid red; */
+    padding-right: 50px;
+}
+
+.gender {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 517px;
+    height: 517px;
+}
+
+.s5__pig__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 455px;
+    align-items: center;
+
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.circle__pig {
+    width: 72px;
+    height: 72px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    background: rgb(227, 184, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex__pig {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+}
+
+.title__s5__pig {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26px;
+    font-size: 18px;
+    color: #E3B873;
+    margin-left: 25px;
+}
+
+.title__right__block {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 26px;
+    font-size: 18px;
+    /* outline: 1px solid blue; */
+    text-align: center;
+    max-width: 267px;
+    color: #FFFFFF;
+    padding: 0 20px;
+}
+
+.divs__right__block {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    /* outline: 1px solid red; */
+    width: 390px;
+}
+
+.input__s5 {
+    width: inherit;
+}
+
+.input__type {
+    width: 100%;
+    height: 31px;
+    background-color: #131313;
+    border: none;
+    border-bottom: 1px solid gray;
+    /* outline: 1px solid yellow; */
+    color: #E3B873;
+}
+
+.s5__right__block {
+    display: flex;
+    justify-content: center;
+}
+
+.black__p {
+    /* outline: 1px solid green; */
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 39px;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    font-size: 13px;
+}
+
+.checkbox__span {
+    color: #FFFFFF;
+}
+
+.dop__checkbox {
+    margin-top: 16px;
+}
+
+.button__black {
+    margin-top: 20px;
+    align-self: flex-end;
+    max-width: 214px;
+}
+
+.button__black2 {
+    width: 213px;
+
+    background: #E3B873;
+    border: none;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    font-style: normal;
+    font-family: 'Nunito Sans';
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 21px;
+    
+    text-transform: uppercase;
+    padding: 19px 21px;
+    color: #FFFFFF;
+}
+
+/* ШЕСТАЯ СЕКЦИЯ /////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////// */
+.section__6 {
+    height: 1017px;
+    position: relative;
+}
+
+
+.opacity__fon {
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, .7);
+    opacity: 0.5;
+}
+
+
+.s6__mono__div {
+    width: inherit;
+    height: 864px;
+    background-color: black;
+    margin-top: 142px;
+    position: relative;
+    top: 112px;
+}
+
+.mono__img {
+    width: 100%;
+    height: inherit;
+    opacity: 0.3;
+}
+
+.s6__img__div1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.s6__div1__img1 {
+    margin-bottom: 39px;
+}
+
+.s6__img__div2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.s6__div1__img2 {
+    margin-top: 39px;
+}
+
+.kartinki {
+    position: absolute;
+    right: 16%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 751px;
+    height: inherit;
+    
+}
+
+.s6__h1__links__div {
+    width: 299px;
+    height: 516px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+}
+
+.title1__s6 {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 37px;
+    font-size: 27px;
+    
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.s6__links {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+text-decoration: none;
+color: #FFFFFF;
+margin: 3px 0;
+
+}
+
+.s6__links:hover {
+border-bottom: 1px solid #E3B873;
+color: #E3B873;
+padding-bottom: 1px;
+
+}
+
+.s6__links__div {
+    margin: 5px 0;
 }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/header-body.css">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/media-fonts.css">
+    
 
     <title>Верстка лендинга по макету</title>
 
@@ -22,7 +23,7 @@
         <nav>
             <ul class="header-navigation">
                 <li class="header-navigation__item"><a class="header-navigation__link" href="#home">HOME</a></li>
-                <li class="header-navigation__item"><a class="header-navigation__link" href="#home">PROJECTS</a></li>
+                <li class="header-navigation__item"><a class="header-navigation__link" href="#projects">PROJECTS</a></li>
                 <li class="header-navigation__item"><a class="header-navigation__link" href="#home">MEASUREMENT</a></li>
                 <li class="header-navigation__item"><a class="header-navigation__link" href="#home">TEAM</a></li>
                 <li class="header-navigation__item"><a class="header-navigation__link" href="#home">REVIEWS</a></li>
@@ -59,7 +60,7 @@
         
     </section>
 <!-- Переход на вторую секцию -->
-    <section class="section__2">
+    <section class="section__2" id="projects">
 
          <div class="container">
          
@@ -128,7 +129,7 @@
             </div>
 
             <div class="section3__img__rem__div">
-                <div class="play__rem"><img src="./images/vector/Polygon.svg" alt="start"></div>
+                <div class="play__rem"><img src="./images/vector/Polygon.svg" alt="start" class="start__rem"></div>
                 <img src="./images/image 6.png" alt="лампочка" class="img__rem">
                 
             </div>
@@ -138,17 +139,225 @@
                 You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a 
                 link to the broadcast</div>
 
-                <div class="inputs__div"><input class="inputs" type="text"><input class="inputs" type="text" id="password"><label for="password">dsfs</label><button class="main-button__1">submit</button></div>
+                <div class="flex__div">
+                <div class="inputs__div">
+
+                    <div class="one__input">
+                    <div class="p__inputs">Name</div>
+                    <input class="inputs" type="text" placeholder="What is your name:">
+                </div>
+
+                <div class="two__input">
+                    <div class="p__inputs">Number</div>
+                    <input class="inputs" type="text" placeholder="Your phone number:">
+                </div>
+
+
         </div>
-        
+        <div class="button__div">
+            <button class="main-button__rem">submit</button>
+        </div>
+        <!-- Заблокировал этот чекбокс для больших экранов/ так как не мог адаптировать его и создал его клон -->
+                <div class="checkbox__div">
+                    <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes">
+                    <label for="happy">I agree to the processing of personal data</label>
+                </div>
+        <!-- вот его клон который заблокирован уже на адаптированных экранах -->
+            </div>
+                <div class="checkbox__div2">
+                    <input type="checkbox" class="custom-checkbox" id="happy2" name="happy2" value="yes">
+                    <label for="happy2">I agree to the processing of personal data</label>
+                </div>
+            
 
-
-
-
-
-
+        </div>
     </section>
-<!-- Переход на четвертую секцию секцию -->
+<!-- Переход на четвертую секцию -->
+
+<section class="section__4">
+
+    <div class="section4__block container">
+
+        <div class="title__s4"><h1>TYPES OF REPAIR</h1></div>
+        <div class="vector__s4">
+            <img class="vector__img__s4" src="./images/vector/poloska.svg" alt="a">
+            <img class="vector__img__s4" src="./images/vector/instruments.svg" alt="a">
+            <img class="vector__img__s4" src="./images/vector/poloska.svg" alt="a">
+        </div>
+        <div class="flex__s4">
+
+            <div class="flex__s4__self">
+                <div class="div__s4__img">
+                    <img src="./images/flex1.jpg" class="flex__img" alt="a">
+                </div>
+                <div class="div__s4__cube">
+                    <div class="h3__spisok__div">
+                    <h3 class="h3__s4">Redecorating</h3>
+                </div>
+                <ul class="spisok__s4">
+                        <li>Dismantling of old coatings</li>
+                        <li>Wallpapering</li>
+                        <li>Painting walls and ceilings</li>
+                        <li>Laying flooring</li>
+                        <li>Replacing plumbing</li>
+                        <li>Replacing sockets and switches</li>
+                        <li>Replacing doors</li>
+                    </ul>
+                
+                
+                    <div class="div__s4__rur">
+                        <h3 class="from__900"> from 900 rub / m2</h3>
+                    </div>
+                </div>
+
+            </div>
+            
+
+            <div class="flex__s4__self">
+                <div class="div__s4__img">
+                    <img src="./images/image_flex4_2.jpg" class="flex__img" alt="a">
+            </div>
+            <div class="div__s4__cube">
+                <div class="h3__spisok__div">
+                    <h3 class="h3__s4">Overhaul</h3>
+                </div>
+                <ul class="spisok__s4">
+                        <li>Dismantling of old coatings</li>
+                        <li>Wallpapering</li>
+                        <li>Painting walls and ceilings</li>
+                        <li>Laying flooring</li>
+                        <li>Replacing plumbing</li>
+                        <li>Replacing sockets and switches</li>
+                        <li>Replacing doors</li>
+                    </ul>
+                    <div class="div__s4__rur">
+                        <h3 class="from__900">from 900 rub / m2</h3>
+                    </div>
+            </div>
+
+
+        </div>
+
+
+            <div class="flex__s4__self">
+                <div class="div__s4__img">
+                    <img src="./images//flex_4_3.jpg" class="flex__img" alt="a">
+            </div>
+            <div class="div__s4__cube">
+                <div class="h3__spisok__div">
+                    <h3 class="h3__s4">Designer Repair</h3>
+                </div>
+                <ul class="spisok__s4">
+                        <li>Dismantling of old coatings</li>
+                        <li>Wallpapering</li>
+                        <li>Painting walls and ceilings</li>
+                        <li>Laying flooring</li>
+                        <li>Replacing plumbing</li>
+                        <li>Replacing sockets and switches</li>
+                        <li>Replacing doors</li>
+                    </ul>
+                    <div class="div__s4__rur">
+                        <h3 class="from__900">from 900 rub / m2</h3>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<!-- Переход на пятую секцию -->
+
+<section class="section__5">
+
+<div class="section5__block container">
+    <div class="s5__block__line">
+        <div class="s5__left__block">
+           <div class="gender">
+        <div class="flex__circle__h5"> <div class="circle">01</div><h5 class="title__s5">Our specialist will arrive for measurements per day contact, or appoint a date convenient for you</h5></div>
+        <div class="flex__circle__h5"> <div class="circle">02</div><h5 class="title__s5">Free metering</h5></div>
+        <div class="flex__circle__h5"> <div class="circle">03</div><h5 class="title__s5">Free consultation</h5></div>
+        <div class="flex__circle__h5"> <div class="circle">04</div><h5 class="title__s5">Get a cost estimate and the timing of your future repairs</h5></div>
+
+        </div>
+    </div>
+        <div class="s5__right__block">
+
+
+            <div class="divs__right__block">
+
+                <div class="black__h3">
+                <h3 class="title__right__block">Leave a request for free departure of the measurer</h3>
+                </div>
+
+                <div class="input__s5">
+                    <p class="black__p">Name</p>
+                        <input type="text" placeholder="Your phone number:" class="input__type">
+                </div>
+
+                <div class="input__s5">
+                    <p class="black__p">Phone</p>
+                        <input type="text" placeholder="Your phone number:" class="input__type">
+                </div>
+
+                <div class="input__s5">
+                    <p class="black__p">Email</p>
+                    <input type="text" placeholder="Your email:" class="input__type">
+                </div>
+                <div class="input__s5">
+                    <div class="checkbox__div2 dop__checkbox">
+                        <input type="checkbox" class="custom-checkbox" id="happy3" name="happy3" value="yes">
+                        <label for="happy3"><span class="checkbox__span">I agree to the processing of personal data</span></label>
+                    </div>
+                </div>
+                <div class="input__s5 button__black">
+                    <button class="button__black2">Call the measurer</button>
+                </div>
+
+</div>
+
+
+
+
+    </div>
+    </div>
+    <div class="flex__pig">
+    <div class="s5__pig__text">
+        <div class="circle__pig"><img src="./images/vector/pig.svg" alt="pig"></div>
+        <h5 class="title__s5__pig">Help save 10 - 20% of the <br> cost of materials</h5>
+    </div>
+</div>
+</div>
+
+</section>
+<!-- Переход на шестую секцию -->
+
+<section class="section__6">
+
+<div class="s6__mono__div"><img src="./images/s6__fon.png" alt="mono" class="mono__img"></div>
+
+
+
+<div class="kartinki">
+    <div class="s6__img__div1"><img src="./images/div 1-1.png" alt="chasi" class="s6__div1__img1" ><img src="./images/div 1-2.png" alt="chasi" class="s6__div1__img" ></div>
+    <div class="s6__img__div2"><img src="./images/div 2-1.png" alt="chasi" class="s6__div1__img" ><img src="./images/div 2-2.png" alt="chasi" class="s6__div1__img2" ></div>
+</div>
+
+<div class="s6__h1__links__div">
+    <h1 class="title1__s6">We realize your wildest fantasies</h1>
+    <div class="s6__links__div"><a href="#" class="s6__links">American classic</a></div>
+    <div class="s6__links__div"><a href="#" class="s6__links">Empire</a>                    </div>
+    <div class="s6__links__div"><a href="#" class="s6__links">Classical</a>                 </div>
+    <div class="s6__links__div"><a href="#" class="s6__links">Loft</a>                      </div>
+    <div class="s6__links__div"><a href="#" class="s6__links">Minimalism</a>                </div>   
+    <div class="s6__links__div"><a href="#" class="s6__links">Provence</a>                  </div>
+    <div class="s6__links__div"><a href="#" class="s6__links">Romanticism</a>               </div>  
+    <div class="s6__links__div"><a href="#" class="s6__links">Scandinavian style</a>        </div>
+    <div class="s6__links__div"><a href="#" class="s6__links">Mediterranean style</a>       </div>
+    <div class="s6__links__div"><a href="#" class="s6__links">High tech</a>                 </div>
+    <div class="s6__links__div"><a href="#" class="s6__links">Eclecticism</a>               </div>
+
+
+
+</div>
 
 
 
@@ -157,10 +366,14 @@
 
 
 
+
+
+
+</section>
 
 
 
 </main>
-<footer class="footer"></footer>
+<footer class="footer" style="width: 100%; height: 200px;"></footer>
 </body>
 </html>

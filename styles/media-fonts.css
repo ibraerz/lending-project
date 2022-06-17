@@ -8,6 +8,24 @@
     src: url(../fonts/Nunito_Sans/NunitoSans-Regular.ttf);
 }
 
+@media screen and (max-width: 1350px)
+{
+
+    .s6__h1__links__div {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1240px)
+{
+    .izo {
+        display: none;
+    }
+
+}
+
+
 @media screen and (max-width: 768px) 
 
 {
@@ -213,26 +231,40 @@
 }
 
 .section3__block {
- width: 100%;
- position: static;
- background-color: #131313;
- 
+    position: static;
+    width: 100%;
+    background-color: #131313;
+    margin: 0;
+    height: 900px;
 
 }
 
 
 
 .section3__img__rem__div {
-display: flex;
-width: 340px;
-margin: 0 auto;
-height: 207px;
-margin: 0 17px;
-margin-top: 31px;
+    display: flex;
+    width: 340px;
+    margin: 0 auto;
+    height: 207px;
+    margin: 0 17px;
+    margin-top: 31px;
 }
 
 .img__rem {
     width: inherit
+}
+
+.play__rem {
+    top: 85px;
+    left: 152px;
+    opacity: 1;
+    width: 37px;
+    height: 37px;
+}
+
+.start__rem {
+    width: 12px;
+    height: 12px;
 }
 
 
@@ -246,23 +278,137 @@ margin-top: 31px;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
+
     width: 100%;
-    
-}
-.inputs {
-    height: 31px;
-    background-color:#131313;
-    border: none;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    background-color: #ad5555;
-    width: 90%;
     margin: 0 17px;
 
+
+    
 }
 
-.main-button__1 {
+.inputs {
+    height: 31px;
+    background-color: #131313;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 92%;
+    margin-top: 0px;
+    color: #E3B873;
+   
+    
+}
+
+
+
+.p__inputs {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 13px;
+
+}
+
+
+.checkbox__div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 93%;
-    margin: 17px;
+    background-color: #131313;
+    color: #FFFFFF;
+    margin-top: 28px;
+
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 163.68%;
+    font-size: 14px;
+    /* or 23px */
+    
+    margin: 17px 17px;
+    margin-bottom: 37px;
+    color: #FFFFFF;
+    
+}
+
+.one__input {
+    margin-bottom: 63px;
+}
+
+.two__input {
+    margin-left: 0px;
+}
+
+
+
+
+
+.main-button__rem {
+    width: inherit;
+    margin-top: 620px;
+    margin: 0 17px;
+
+    
+}
+.button__div {
+    order: 30;
+    width: 95%;
+    align-self: auto;
+}
+
+.flex__div {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+
+}
+
+.checkbox__div2 {
+    display: none;
+}
+
+/* секция 4 */
+
+.section4__block {
+    margin-top: 270px;
+
+}
+
+
+.flex__s4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.flex__s4__self {
+    margin-bottom: 80px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.vector__s4 {
+    margin-bottom: 40px;
+}
+
+.div__s4__cube, .flex__s4__self {
+    align-self: flex-start;
+}
+
+
+
+/* секция 5-6 */
+
+.section__5 {
+    display: none;
+}
+
+.section__6 {
+    display: none;
 }
 
 }
