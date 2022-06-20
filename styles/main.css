@@ -832,23 +832,117 @@ button:active {
 
 .s6__links {
     font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 38px;
-text-decoration: none;
-color: #FFFFFF;
-margin: 3px 0;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 38px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 3px 0;
 
 }
 
 .s6__links:hover {
-border-bottom: 1px solid #E3B873;
-color: #E3B873;
-padding-bottom: 1px;
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    padding-bottom: 1px;
 
 }
 
 .s6__links__div {
     margin: 5px 0;
+}
+
+.title__media {
+    display: none;
+}
+
+/* СЕДЬМАЯ СЕКЦИЯ /////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////// */
+
+.section__7 {
+    height: 1065px;
+    width: auto;
+    outline: 4px solid rgb(6, 0, 174);
+    padding-top: 69px;
+    background-image: url('../images/s7__fon.jpg');
+    background-repeat: repeat-x;
+    background-position: bottom;
+
+}
+
+
+.s7__block {
+    outline: 1px solid red;
+    height: 642px;
+
+}
+
+.s7__block__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* outline: 1px solid rgb(46, 163, 4); */
+    height: 148px;
+}
+
+.s7__h1 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    /* outline: 1px solid rgb(108, 116, 0); */
+    color: #181818;
+}
+
+.s7__vector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* outline: 1px solid rgb(43, 4, 163); */
+    width: 180px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.s7__text {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+max-width: 410px;
+color: #363636;
+/* outline: 1px solid rgb(255, 0, 230); */
+}
+
+.s7__block__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 39px;
+    outline: 1px solid rgb(34, 255, 0);
+
+}
+
+.bottom__divs {
+    background-color: #ffffff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    width: 376px;
+    height: 428px;
+    outline: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom__into {
+    width: 324px;
+    outline: 1px solid black;
+    height: 350px;
 }

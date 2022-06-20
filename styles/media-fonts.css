@@ -407,8 +407,48 @@
     display: none;
 }
 
-.section__6 {
+
+
+.s6__mono__div, .kartinki, .s6__h1__links__div {
     display: none;
+}
+
+.title__media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1000px;
+
+
+}
+
+.title1__s6 {
+    align-self: center;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.media__div__img {
+    max-width: 340px;
+   width: 340px;
+    height: 242px;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url('../images/media__fon.png');
+}
+
+.footer {
+    height: 500px;
+
+}
+
+section {
+    width: 100%;
 }
 
 }
