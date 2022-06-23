@@ -1,4 +1,4 @@
-/* ОСНОВНЫЕ НАСТРОЙКИ ХЕДЕРА И БОДИ ------------------------- */
+/* ОСНОВНЫЕ НАСТРОЙКИ ХЕДЕРА И БОДИ И ФУУТЕРА ------------------------- */
 body {
     margin: 0px;
     font-family: Nunito Sans Arial, Helvetica, sans-serif;
@@ -107,3 +107,13 @@ body {
     margin-right: 47px;
 }
 /* ОТСТУПЫ ССЫЛОК НАВИГАЦИИ ------------------------------- */
+
+footer {
+ display: flex;
+ align-items: center;
+ height: 133px;
+}
+
+#footer__div {
+    width: 1000%;
+}

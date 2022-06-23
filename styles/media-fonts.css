@@ -451,4 +451,10 @@ section {
     width: 100%;
 }
 
+/* s7 */
+
+.section__7 {
+    display: none;
+}
+
 }
