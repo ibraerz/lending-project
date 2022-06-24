@@ -109,11 +109,11 @@ body {
 /* ОТСТУПЫ ССЫЛОК НАВИГАЦИИ ------------------------------- */
 
 footer {
- display: flex;
- align-items: center;
- height: 133px;
+    display: flex;
+    align-items: center;
+    height: 133px;
 }
 
 #footer__div {
-    width: 1000%;
+    width: 100%;
 }

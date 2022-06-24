@@ -1092,11 +1092,11 @@ button:active {
 
 .checkbox__span {
     font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 163.68%;
-/* or 23px */
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 163.68%;
+    /* or 23px */
 
 
 color: #FFFFFF;
@@ -1104,14 +1104,14 @@ color: #FFFFFF;
 
 .s8__title__h1 {
     font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
 
-color: #FFFFFF;
 }
 
 .s8__log__pass__div__doth {
@@ -1165,28 +1165,20 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 
-
-/* */
-/*  */
-/*  */
-
-
-
-
 .s8__title {
     max-width: 589px;
 }
 
 .s8__h1 {
     font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
 
-color: #E3B873;
+    color: #E3B873;
 }
 
 .s8__icons {
