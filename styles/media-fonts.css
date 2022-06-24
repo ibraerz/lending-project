@@ -407,7 +407,9 @@
     display: none;
 }
 
-
+.section__6 {
+    height: 239px;
+}
 
 .s6__mono__div, .kartinki, .s6__h1__links__div {
     display: none;
@@ -454,7 +456,76 @@ section {
 /* s7 */
 
 .section__7 {
+    background-color: #131313;
+    width: auto;
+    outline: none;
+    padding-top: 0;
+    background-image: none;
+
+    height: 631px;
+}
+
+.s7__block {
     display: none;
 }
+
+.section__8 {
+
+    height: 620px;
+    background-color: #E3B873;
+}
+
+.section8__div {
+    position: relative;
+    bottom: 508px;
+}
+
+.s8__inputs__fon__div {
+    flex-direction: column;
+    max-width: 375px;
+
+    
+}
+
+.s8__inputs__div {
+    width: 350px;
+}
+
+.input__s8, .input__s8__q {
+    width: 339px;
+}
+
+.s8__log__pass__div__doth {
+    flex-direction: column;
+}
+
+
+.s8__title {
+    order: 3;
+    max-width: 320px;
+}
+
+.s8__icons {
+    order: 4;
+    margin-bottom: 50px;
+}
+
+.s8__button__div {
+    margin-top: 0;
+}
+
+.karta {
+    width: 340px;
+    height: 340px;
+    order: 2;
+    margin-top: 45px;
+}
+
+
+footer {
+    display: none;
+}
+
+
 
 }
